@@ -34,7 +34,7 @@ for x in range(0, numMatches):
     else:
         yourNum = 2; #scissors
     matchPoints = 1 + yourNum + mat[yourNum][compNum]
-    print(matchPoints)
+#    print(matchPoints)
     totalPoints = totalPoints + matchPoints
 
 print("Total Points: " + str(totalPoints))

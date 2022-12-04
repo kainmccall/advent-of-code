@@ -37,6 +37,6 @@ for x in range(0, numMatches):
         theirInd = 1
     movePoints = mat[outInd][theirInd]
     matchPoints = float(outcomePoints + movePoints)
-    print(data[x][0] + ", " + data[x][1] + ": " + str(outcomePoints) + " outcome pts + " + str(movePoints) + " move pts = " + str(matchPoints))
+#    print(data[x][0] + ", " + data[x][1] + ": " + str(outcomePoints) + " outcome pts + " + str(movePoints) + " move pts = " + str(matchPoints))
     totalPoints = totalPoints + matchPoints
 print("Total Points: " + str(totalPoints))

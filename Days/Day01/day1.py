@@ -1,8 +1,8 @@
 with open('day1.txt') as f:
     my_list = f.readlines()
 
-for x in my_list:
-    print(x)
+#for x in my_list:
+#    print(x)
 
 numLines = len(my_list)
 totalCalList = []
@@ -19,8 +19,8 @@ mostCals = max(totalCalList)
 print("MOST CALORIES: " + str(mostCals))
 
 totalCalList.sort()
-for x in totalCalList:
-    print(x)
+#for x in totalCalList:
+#    print(x)
 
 print("Top 3: " + str(totalCalList[-1]) + " , " + str(totalCalList[-2]) + ", and " + str(totalCalList[-3]))
 top3total = totalCalList[-1] + totalCalList[-2] + totalCalList[-3]
