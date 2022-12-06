@@ -34,7 +34,6 @@ unique_index_2 = 0
 for i in range(13, len(data)):
     substring = data[i-13:i+1]
     unique_chars = set(substring)
-    print(unique_chars)
     if len(unique_chars) == 14:
         unique_index_2 = i
         break
