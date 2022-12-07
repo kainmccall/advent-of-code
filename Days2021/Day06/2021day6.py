@@ -1,12 +1,9 @@
 import numpy as np
-import matplotlib.pyplot as plt
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 use_test_data = False        # Set to True when testing; set to False for actual problem
 filename = "2021day6"
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~Load Data~~~~~~~~~
 
 # Load either test data or input data
 if use_test_data:
@@ -62,4 +59,7 @@ def fish_count(in_fish, n_days):
 
 num_fish_2 = fish_count(lanternfish_2, num_days_2)
 print("# Lanternfish after " + str(num_days_2) + " days: " + str(num_fish_2))
+
+
+
 
