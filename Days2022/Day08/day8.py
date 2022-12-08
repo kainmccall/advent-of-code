@@ -25,7 +25,7 @@ visible_trees = []
 for y in range(0, len(tree_map)):
     for x in range(0, len(tree_map[0])):
         current_value = tree_map[y][x]
-        is_visible1 = True
+        is_visible1 = True          # ew, but... functional?
         is_visible2 = True
         is_visible3 = True
         is_visible4 = True
