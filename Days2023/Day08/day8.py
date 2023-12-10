@@ -70,4 +70,5 @@ else:
     for i in range(1, len(num_steps_to_z), 1):
         num_steps_to_z_str += ", " + str(num_steps_to_z[i])
     total_steps = eval("math.lcm(" + num_steps_to_z_str + ")")
+    # total_steps = math.lcm(*num_steps_to_z)   #   This is how to actually do this lol
     print("Part 2 Number of Steps Needed: " + str(total_steps))
